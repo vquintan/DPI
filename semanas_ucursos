@@ -2,7 +2,7 @@ CREATE TABLE m_semanas_ucursos (
 	id_semanas_ucursos int(11) NOT NULL,
 	idCurso int(11) NOT NULL,
 	FechaInicio date NOT NULL,
-	FechaInicio date NOT NULL,
+	FechaTermino date NOT NULL,
 	mat_doc_clase_num_arch	int(11) NOT NULL,
 	mat_doc_youtube_num_arch	int(11) NOT NULL,
 	mat_doc_audio_num_arch	int(11) NOT NULL,
