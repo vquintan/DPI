@@ -3,3 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/dpimeduchile/public_html/repo_git/victor
     - /bin/cp -R images $DEPLOYPATH
+    - chmod 755 ~/home/dpimeduchile/public_html/repo_git/victor
